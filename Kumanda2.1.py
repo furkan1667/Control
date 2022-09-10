@@ -10,14 +10,14 @@ class Kumanda():
         
     def tv_aç(self):
         if(self.tv_durumu=="Açık"):
-            print("Televizyon zaten açık amk....")
+            print("Televizyon zaten açık ....")
         else:
             print("Televizyon açılıyor....")
             self.tv_durumu="Açık"
             
     def tv_kapat(self):
         if(self.tv_durumu=="Kapalı"):
-            print("Televizyon zaten kapalı amk...")
+            print("Televizyon zaten kapalı ...")
         else:
             print("Televizyon kapanıyor...")
             self.tv_durumu="Kapalı"
@@ -54,7 +54,7 @@ class Kumanda():
 kumanda=Kumanda()
 
 print("""
-      KARDEŞİM ALDIN ELİNE KUMANDAYI NE YAPMAK İSTERSİN
+      ELİNE KUMANDAYI ALDIN NE YAPMAK İSTERSİN
       
       1.TV yi aç
       
